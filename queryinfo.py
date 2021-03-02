@@ -10,11 +10,6 @@ print('The population of Fayette County(my home county) in 2010 was ' + str(faye
 
 
 
-# def total_state_pop():
-#   sum = 0
-#   for i in census2010.allData['GA']:
-#     sum = int(i['pop']) + sum
-#   return sum
 def total_state_pop(state):
   sum = 0
   for i in census2010.allData[state]:
